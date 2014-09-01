@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical" >
+	
+    <TextView
+            android:id="@+id/lessons_management_content_item_id"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    
+    <TextView
+        android:id="@+id/lessons_management_content_item_courseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="13.0dip"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="CourseName"
+        android:textColor="#000"
+        android:textSize="16.0dip" />
+
+    <TextView
+        android:id="@+id/lessons_management_content_item_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="13.0dip"
+        android:layout_toRightOf="@+id/lessons_management_content_item_courseName"
+        android:gravity="right|center_vertical"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="16.0dip" />
+    
+</RelativeLayout>
